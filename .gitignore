@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environnement virtuel
+venv/
+env/
+.venv/
+
+# Clé API (TRÈS IMPORTANT !)
+.env
+*.env
+secrets.txt
+
+# Base vectorielle ChromaDB
+chroma_db/
+*.db
+
+# Documents uploadés
+documents/*.pdf
+documents/*.docx
+documents/*.txt
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
